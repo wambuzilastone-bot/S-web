@@ -1,0 +1,17 @@
+{
+  "name": "futbol24-render-scraper",
+  "version": "1.0.0",
+  "description": "Live football fixtures and league metrics scraper API using Puppeteer, deployable on Render.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "cors": "^2.8.5"
+  }
+}
